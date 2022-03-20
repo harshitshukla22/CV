@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn More</title>
+
+<style>
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+
+/* css variable */
+:root {
+  --white: #fff;
+  --dark-gray: #ababab;
+  --light-gray: #808080;
+  --dark-bg: #222222;
+  --light-bg: #333333;
+  --yellow: #bac964 ;
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: var(--white);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--light-bg);
+}
+
+body {
+  background-color: var(--dark-bg);
+}
+
+section {
+  padding: 5rem 9%;
+}
+
+.heading {
+  color: var(--white);
+  font-size: 3rem;
+  font-weight: 200;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.heading span {
+  font-weight: 700;
+}
+
+.btn {
+  background-color: var(--yellow);
+  font-size: 1.7rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  color: var(--white);
+  text-transform: uppercase;
+  margin-right: 1rem;
+  display: inline-block;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+}
+
+/* navbar */
+header{
+    width: 100%;
+    height: 70px;
+    color: white;
+}
+ul{
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+li{
+    display: inline-block;
+    padding: 15px 30px;
+}
+a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+/* navbar */
+
+
+/* about */
+.about .box-container .box .image {
+  height: 100%;
+  overflow: hidden;
+}
+
+.about .box-container .box .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 4rem;
+}
+
+.about .box-container .box p {
+  color: var(--dark-gray);
+  margin-bottom: 2rem;
+  font-size: 1.7rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+  text-transform: none;
+}
+/* about */
+    </style>
+
+</head>
+
+
+<body>
+
+    <!-- header section starts -->
+    <header>
+            <ul>
+                <li><div class="btn"><a href="index.html">Home</a></div></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- header section ends -->
+
+     <!-- about section starts -->
+    <section class="about" id="about">
+    <div class="box-container">
+        <div class="box">
+            
+            <div class="image">
+              <img src="profile.jpeg" alt="" />
+            </div>
+        </div>
+        <div class="box">
+          <h1 class="heading">about <span>me</span></h1>
+        <p>
+            My Journey in the field of <b>Computer Science</b> starts from an Inter-School Competition at my school. I joined <b>Faculty of Engineering and Technology, University of Lucknow</b> in 2019 to major in <b>Computer Science</b> and opted specialization in it. This is when my journey started in its true sense. Although C++ was my first language and I could fluently code the basic problems of C++.<br>Further started learning the core part and skilling myself in Data Structures and Algorithms also learn basics of Python and always look towards obtaining a challenging and competitive environment where I can apply my technical and analytical skills to gain valuable insights and experience in the varied areas of my interest. As up till now I've skilled myself in building and deploying websites and also completed some mini projects on Web development.<br>Apart from that I try to be a competitive coder along .
+        </p>
+        <p>
+            I invested my time in building my skillset as fast as possible but as efficiently as necessary and recieved certification in the following :<br><br>1.Python & Data Visualization <br>2.Python Skill Assesment
+        </p>
+        <a href="HARSHIT SHUKLA RESUME.pdf" target="_blank" class="btn">download cv</a>
+        </div>
+    </div>
+  </section>
+  <!-- about section ends -->
+</body>
+</html>
